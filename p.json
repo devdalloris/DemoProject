@@ -1,0 +1,31 @@
+{
+    "01": {
+        "table": "users",
+        "file": "t01.csv",
+        "prefix": "01-XX",
+        "columns": {
+            "00": "id",
+            "01": "name",
+            "02": "phone_number",
+            "03": "email",
+            "04": "created_at",
+            "05": "last_active_at",
+            "07": "is_vip",
+            "08": "total_balance"
+        }
+    },
+    "02": {
+        "table": "cards",
+        "file": "t02.csv",
+        "prefix": "02-XX",
+        "columns": {
+            "00": "id",
+            "01": "user_id",
+            "02": "card_number",
+            "03": "balance",
+            "05": "created_at",
+            "06": "card_type",
+            "07": "limit_amount"
+        }
+    }
+} 
